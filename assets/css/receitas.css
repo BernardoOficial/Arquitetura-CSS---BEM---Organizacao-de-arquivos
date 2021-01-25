@@ -1,0 +1,12 @@
+.receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
+    justify-items: center;
+    
+    
+    background-color: #e5e5e5;
+    width: 100%;
+    padding: 100px 120px;
+    box-sizing: border-box;
+}
