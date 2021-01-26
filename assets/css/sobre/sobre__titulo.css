@@ -4,3 +4,11 @@
     font-family: Pacifico, cursive;
     color: #8D0606;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre__titulo {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}

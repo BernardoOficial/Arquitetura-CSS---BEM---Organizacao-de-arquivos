@@ -1,0 +1,17 @@
+.rodape {
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    padding: 30px;
+    text-align: center;
+
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 728px) {
+    .rodape {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+}

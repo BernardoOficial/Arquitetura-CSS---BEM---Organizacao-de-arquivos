@@ -10,3 +10,19 @@
     padding: 100px 120px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1100px) {
+    .receitas {
+        padding: 60px 30px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .receitas {
+        padding: 60px 30px;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+    }
+}

@@ -1,4 +1,7 @@
 .menu__link {
+    outline: none;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     text-decoration: none;
     color: #808080;
 }
@@ -8,4 +11,11 @@
 }
 .menu__link:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__link {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 }

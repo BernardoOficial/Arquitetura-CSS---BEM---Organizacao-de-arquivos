@@ -13,3 +13,10 @@
 
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 728px) {
+    .banner__titulo {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+}

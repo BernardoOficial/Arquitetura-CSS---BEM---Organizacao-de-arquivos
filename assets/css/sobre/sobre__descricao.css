@@ -5,3 +5,11 @@
     color: #8C8888;
     font-weight: 300;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre__descricao {
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
